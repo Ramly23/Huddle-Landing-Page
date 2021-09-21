@@ -17,14 +17,16 @@ body {
     margin-right: auto;
     max-width: 1440px;
     background: var(--Violet);
-}
-
-.container {
-    padding: 50px 60px 50px 130px;
     background: url(images/bg-desktop.svg), var(--Violet);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.container {
+    padding: 50px 60px 50px 130px;
+    top: 50px;
+    position: relative;
 }
 
 .row {
